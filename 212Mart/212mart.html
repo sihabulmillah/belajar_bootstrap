@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>212 Mart</title>
+    <!-- CSS BOOTSTRAP 4 -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+    />
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- My CSS -->
+    <style>
+     .a:hover{
+    color : red !important;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.form{
+    border: 1px solid black;
+}
+figcaption{
+    font-size: 13px;
+}
+input::placeholder{
+    color: rgb(175, 174, 174);
+}
+    </style>
+</head>
+<body>
+    <!-- Tampilan Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <div class="container">
+  <a class="navbar-brand" href="#"><img src="img/212.png" width="100" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link a text-danger font-weight-bold" href="#">Beranda<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link a" href="#">Keanggotaan</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link a" href="#">Berita</a>
+     </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link a dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Promo & Program
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Program 1</a>
+          <a class="dropdown-item" href="#">Program 2</a>
+          <!-- <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a> -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link a" href="#">Produk & Layanan Digital</a>
+      </li>
+      <li class="nav-item">
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" aria-label="Search">
+         <button class="btn btn-danger my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+       </form>
+      </li>
+    </ul>
+  </div>
+ </div>
+</nav>
+    <!-- Akhir Navbar -->
+    <!-- Baner -->
+    <div class="hiro">
+     <img src="img/alfaku.png" alt="">
+    </div>
+    <!-- Akhir Baner -->
+    <div class="container mt-5">
+     <div class="row">
+      <div class="col-md-6">
+     <h5 class="font-weight-bold">Kategori Pilihan</h5>
+    </div>
+    <div class="col-md-6">
+     <h5 class="font-weight-bold">TopUp Diamond Game <span class="text-danger" style="font-size: 12px;">Lihat Semua</span></h5>
+    </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6">
+       <div class="row">
+        <div class="col-md-3">
+         <div class="card">
+          <img class="card-img-top" src="img/biru.png" alt="Card image cap">
+          <p class="mt-2 text-center">
+           Elektronik
+          </p>
+        </div>
+        </div>
+        <div class="col-md-3">
+         <div class="card">
+          <img class="card-img-top" src="img/merah.png" alt="Card image cap">
+          <p class="mt-2 text-center">
+           Makanan
+          </p>
+        </div>
+        </div>
+        
+        <div class="col-md-3">
+         <div class="card">
+          <img class="card-img-top" src="img/biru.png" alt="Card image cap">
+          <p class="mt-2 text-center">
+           Minuman
+          </p>
+        </div>
+        </div>
+        <div class="col-md-3">
+         <div class="card">
+          <img class="card-img-top" src="img/merah.png" alt="Card image cap">
+          <p class="mt-2 text-center">
+           Aksesoris
+          </p>
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-6 border rounded pt-2">
+       <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Mobile Legend</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Free Fire</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PUBG Mobile</a>
+        </li>
+      </ul>
+      <ul class="d-flex justify-content-around list-unstyled">
+       <li><label for="" style="color: gray; margin-top:10px ; margin-bottom: -10px;font-size:15px">Id Pengguna</label><br>
+       <input type="text" style="outline: none;"></li>
+       <li><label for=""style="color: gray;margin-top:10px ; margin-bottom: -10px;font-size:15px;">Pilih Jumlah</label><br>
+       <select name="" id="" style="width: 200px;height: 30px;outline: none;">
+        <option value=""></option>
+        <option value="">Pilihan 1</option>
+        <option value="">Pilihan 2</option>
+        <option value="">Pilihan 3</option>
+        <option value="">Pilihan 4</option>
+        <option value="">Pilihan 5</option>
+       </select>
+       <button class="btn btn-danger btn-sm ml-4 mb-1">Beli</button>
+      </li>
+      </ul>
+      </div>
+     </div>
+     </div>
+
+
+
+    <div class="container">
+    <!-- Manfaat -->
+     <h5 class="mt-5 font-weight-bold">Manfaat dan Kebaikan Program Keanggotaan</h5>
+     <p align="justify" style="font-size: 0.98em;">Sebagai bentuk penghargaan kami kepada konsumen, kami memberikan fasilitas Keanggotaan 212 mart agar pengalaman berbelanja anda semakin berkesan berbagai mnafaat dan kebaikan yang kami berikan. Banyak keuntungan yang bisa di dapatkan dengan menjadi member 212 mart seperti bonus poin, informasi promo-promo terbaru, potongan harga, undian berhadiah, dan masih banyak lainnya.</p>
+    
+     <div class="row  mt-4" >
+      <div class="col-md-2 text-center">
+       <img src="img/bonus.png" width="100" alt="">
+       <figcaption>Bonus Poin</figcaption>
+      </div>
+      <div class="col-md-2 text-center">
+       <img src="img/diskon.png" width="100" alt="">
+       <figcaption>Diskon Produk</figcaption>
+      </div>
+      <div class="col-md-2 text-center">
+       <img src="img/kejutan.png" width="100" alt="">
+       <figcaption>Kejutan Ulangtahun</figcaption>
+      </div>
+      <div class="col-md-2 text-center">
+       <img src="img/promo.png" width="100" alt="">
+       <figcaption>Promo</figcaption>
+      </div>
+      <div class="col-md-2">
+       <center>
+       <img src="img/merchant.png" width="100" alt="">
+       <figcaption>Diskon Merchant</figcaption>
+      </center>
+      </div>
+      <div class="col-md-2">
+       <center>
+       <img src="img/undian.png" width="100" alt="">
+       <figcaption>Undian Berhadiah</figcaption>
+      </center>
+      </div>
+     </div>
+    </div>
+   <div class="container">
+   <h5 class="mt-5 font-weight-bold">Program 212 Mart Terbaru</h5>
+   <div class="row mt-3">
+    <div class="col-6">
+     <div class="card">
+      <img class="card-img-top" src="img/biroe.png" alt="Card image cap">
+      <div class="card-body">
+        <a href="detail.html">Program Star - Susu Indomilk</a>
+        <p class="text-muted" style="font-size: 12px;">Periode 16 Agustus - 20 Oktober 2021</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-6">
+     <div class="card">
+      <img class="card-img-top" src="img/biroe.png" alt="Card image cap">
+      <div class="card-body">
+        <a href="">Program Formula - Kuaci Rebo</a>
+        <p class="text-muted" style="font-size: 12px;" >Periode 11 Januari - 25 Februari 2022</p>
+      </div>
+      
+    </div>
+    
+    </div>
+   </div>
+  </div>
+  <div class="container">
+   <div class="row"  style="margin-top: 100px;">
+    <div class="col-7">
+   <h5 class="font-weight-bold">Cek Pengumuman Pemenang</h5>
+   <p align="justify">Sahabat bsia melakukan pengecekan nama pemenang dari setiap program-program 212 mart dengan mencantumkan kode kupon. Apakah kamu yang beruntung memenangkan salah satu program undian di 212 mart? Silahkan di cek ya!</p>
+   <h6 class="font-weight-bold">Program</h6>
+   <select name="program" style="width: 100%; height: 35px;outline: none; margin-bottom: 15px;">
+    <option value=""></option>
+    <option value="Opsi 1">Opsi 1</option>
+    <option value="Opsi 2">Opsi 2</option>
+   </select><br>
+   <button class="btn btn-primary">Cek Sekarang</button>
+  </div>
+  <div class="col-5 text-center" style="margin-top: -100px;">
+   <img src="img/pemenang.jpg" alt="" width="450">
+  </div>
+  </div>
+  </div>
+
+  <footer class="bg-danger pt-5 pb-3">
+   <div class="container">
+    <img src="img/212.png" alt="" width="100">
+    <div class="row mt-3">
+     <div class="col-md-4 text-white">
+      <h4 class="font-weight-bold">PT Sumber Rejeky Trijaya, Tbk</h4>
+      <p>Jln Mandor Basar no.54 Rangkapan jaya, Pancoran Mas Depok, Jawa Barat 16435</p>
+     </div>
+     <div class="col-md-4 text-white">
+      <h4 class="font-weight-bold">Terhubung Bersama Kamu</h4>
+      <ul style="list-style:none; margin-left: -40px;" >
+       <li>Cara Belanja</li>
+       <li>Pembayaran</li>
+       <li>Jaminan Aman</li>
+      </ul>
+     </div>
+     <div class="col-md-4 text-white">
+      <h4 class="font-weight-bold">Berlangganan newletter</h4>
+      <input type="text" class="rounded" style="padding: 5px; outline: none;border:none;background-color:rgba(110, 108, 108, 0.432);" placeholder="Masukan Email Anda">
+      <button class="btn btn-warning text-white btn-sm"><i class="fa fa-arrow-circle-right"></i></button>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+    <!-- Script Bootstrap v4 -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+ integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+ crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+ integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+ crossorigin="anonymous"></script>
+</body>
+</html>
